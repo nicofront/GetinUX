@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Get in UX"/>
+    <meta name="description" content="Encuentra el programa que impulsará tu carrera al siguiente nivel"/>
+    <meta property="og:title" content="Get in UX"/>
+    <meta property="og:description" content="Encuentra el programa que impulsará tu carrera al siguiente nivel"/>
+
+    <meta property="og:type" content="company"/>
+    <meta property="og:url" content="https://www.getinuxcl.com"/>
+    <meta property="og:site_name" content="Get in UX"/>
+    <title>Get in UX</title>
+    <link rel="shortcut icon" href="dist/img/favicon.png"/>
+    <link rel="stylesheet" href="dist/css/style.css?cb=1615307255841">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <a href="v-home.php" class="header__logo">
+                        <img src="dist/img/header-logo.png" alt="Hivetire">
+                    </a>
+                    <a href="#" class="header__switch d-block d-lg-none"></a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="header__menu">
+                        <div class="header__tr">
+                            <div class="header__td">
+                                <a href="v-nosotros.php" class="text text-sm">
+                                    Nosotros
+                                </a>
+                            </div>
+                            <div class="header__td">
+                                <a href="v-contacto.php" class="text text-sm">
+                                    Contacto
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bgblock">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="u-center text text-5xl text--bold text-darkblue u-mb10">
+                        Incluye tu <span>programa</span>
+                    </h3>
+                    <h4 class="u-center text text-base text-darkblue text--medium u-mb0">
+                        Sé parte de Get in UX
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="u-pt30 u-pb30">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 u-mb40">
+                    <p class="text text-sm u-mb20">
+                        ¿Quieres que tu programa de enseñanza en UX sea visto por miles de potenciales estudiantes? Pues has llegado a la sección correcta.
+                    </p>
+                    <p class="text text-sm u-mb20">
+                        Para ser parte de nuestro sitio web tienes que rellenar el siguiente <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">formulario de inscripción</a>. 
+                    </p>
+                    <p class="text text-sm u-mb20">
+                        Los programas que buscamos tienen que ver con áreas relacionadas a la UX, tales como UX, UI, CX, Product Design, Content Design, UX Research, Diseño Web, entre otras.
+                    </p>
+                    <p class="text text-sm u-mb20">
+                        Responderemos tu solicitud entre 48 y 72 horas aproximadamente, dependiendo de la demanda que tengamos.
+                    </p>
+                    <p class="text text-sm">
+                        Si todo está correcto, ¡te agregaremos!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="dist/img/footer-logo.png" alt="Get in UX" class="footer__logo">
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>
+                            <a href="" class="text text-sm">
+                                Sobre el sitio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text text-sm">
+                                Incluye tu programa
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <p class="text text-xxs u-center u-mb0">
+                        Creado por humanos. Get in UX Chile 2023. <br>
+                        ©Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dist/js/all.js?cb=1615307255841"></script>
+</body>
+
+</html>

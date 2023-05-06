@@ -1,0 +1,65 @@
+.search{
+	.search__box{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		.search__card{
+			flex: 0 0 auto;
+			width: 32%;
+			margin-right: 1%;
+			margin-bottom: 15px;
+		}
+	}
+	.search__card{
+		border: 1px solid #212226;
+		border-radius: 13px;
+		padding: 25px 23px 28px;
+		.search__card__tags{
+			padding-right: 30px;
+			ul{
+				padding: 0;
+				margin: 0;
+				li{
+					display: inline-block;
+					list-style: none;
+					border-radius: 8px;
+					margin-right: 6px;
+					margin-bottom: 8px;
+					border: 1px solid $lightblue-00;
+					padding: 6px 8px;
+					&.search__card__tags__type{
+						background-color: $lightblue-00;
+						color: $white;
+					}
+				}
+			}
+		}
+		.search__card__who{
+			color: $grey;
+			line-height: 24px;
+			padding-left: 33px;
+			position: relative;
+			.search__card__circle{
+				position: absolute;
+				width: 24px;
+				height: 24px;
+				top: 0;
+				left: 0;
+				border-radius: 50%;
+				border: 1px solid $lightgrey;
+				img{
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					max-width: 18px;
+				}
+			}
+		}
+		.search__card__body{
+			p{
+				margin-bottom: 8px;
+			}
+		}
+	}
+}

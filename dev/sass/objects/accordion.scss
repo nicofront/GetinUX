@@ -1,0 +1,36 @@
+@import "../settings/colors";
+
+.accordion{
+	.accordion__trigger{
+		display: inline-block;
+		padding-right: 30px;
+		background-repeat: no-repeat;
+		background-image: url('../img/icon-sort.png');
+		background-size: 11px 7px;
+		background-position: 96% 15px;
+		cursor: pointer;
+		&:hover{
+			text-decoration: none;
+		}
+		&.accordion__trigger--active{
+			background-image: url('../img/icon-sort-reverse.png');
+		}
+		@media screen and (max-width: 768px) {
+			padding-right: 30px;
+		}
+	}
+	.accordion__content{
+		display: none;
+		padding: 10px 15px 0;
+		ul{
+			padding-left: 0;
+			margin: 0;
+			li{
+				margin-bottom: 8px;
+				&:last-child{
+					margin-bottom: 8px;
+				}
+			}
+		}
+	}
+}
