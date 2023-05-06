@@ -66,6 +66,14 @@
             <div class="row">
                 <div class="col-md-12 u-mb40">
                     <div class="search">
+                        <div class="search__data u-mb10">
+                            <h5 class="text text-sm text--black">
+                                10 resultados
+                            </h5>
+                            <h6 class="text text-sm text--black">
+                                Ordenar por:
+                            </h6>
+                        </div>
                         <div class="search__box">
                             <div class="search__card">
                                 <div class="search__card__tags u-mb30">
@@ -286,7 +294,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img src="dist/img/footer-logo.png" alt="Get in UX" class="footer__logo">
+                    <a href="#" class="footer__title text-xl text u-mb0 text--medium">
+                        Get in <br>
+                        UX
+                    </a>
                 </div>
                 <div class="col-sm-6">
                     <ul>

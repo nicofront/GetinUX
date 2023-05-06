@@ -90,7 +90,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img src="dist/img/footer-logo.png" alt="Get in UX" class="footer__logo">
+                    <a href="#" class="footer__title text-xl text u-mb0 text--medium">
+                        Get in <br>
+                        UX
+                    </a>
                 </div>
                 <div class="col-sm-6">
                     <ul>
