@@ -14,6 +14,7 @@ $(document).ready(function() {
     $('.accordion__trigger').click(function(event){
         var self = $(this);
         event.preventDefault();
+        self.toggleClass('accordion__trigger--active');
         self.next().stop().slideToggle();
     });
 

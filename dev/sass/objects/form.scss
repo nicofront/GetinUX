@@ -21,6 +21,7 @@
                     transform: translate(0, -50%);
                     b{
                         border-color: $lightpurple transparent transparent transparent;
+                        transition: .5s;
                     }
                 }
             }
@@ -30,7 +31,9 @@
                 .select2-selection--single{
                      .select2-selection__arrow{
                         b{
-                            border-color: transparent transparent $lightpurple transparent;
+                            border-color: $lightpurple transparent transparent transparent;
+                            border-width: 5px 4px 0 4px;
+                            transform: rotate(-180deg);
                         }
                      }
                 }
