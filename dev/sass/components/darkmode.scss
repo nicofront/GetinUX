@@ -1,5 +1,26 @@
 @import "../settings/colors";
 
 .darkmode{
-
+	background-color: $grey;
+	.text{
+		color: $white;
+		&.text-darkblue{
+			color: $white;
+		}
+	}
+	.footer{
+		background-color: $grey;
+	}
+	.sidebar{
+		.sidebar__box{
+			background-color: $lightpink;
+		}
+	}
+	.search{
+		.search__card{
+			.search__card__who{
+				color: $white;
+			}
+		}
+	}
 }

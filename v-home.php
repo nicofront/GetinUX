@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="dist/css/style.css?cb=1615307255841">
 </head>
 
-<body>
+<body class="transition">
     <div class="sidebar">
         <div class="sidebar__layer"></div>
         <div class="sidebar__box">
@@ -315,7 +315,7 @@
         </div>
     </div>
 
-    <footer class="footer">
+    <footer class="footer transition">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
