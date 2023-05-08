@@ -6,6 +6,12 @@
 		color: $white;
 		&.text-darkblue{
 			color: $white;
+			span{
+				color: $lightpink;
+			}
+		}
+		a{
+			color: $lightpink;
 		}
 	}
 	.footer{
@@ -20,6 +26,15 @@
 		.search__card{
 			.search__card__who{
 				color: $white;
+			}
+			.search__card__tags{
+				ul{
+					li{
+						&.search__card__tags__type{
+							background-color: $lightpink;
+						}
+					}
+				}
 			}
 		}
 	}
