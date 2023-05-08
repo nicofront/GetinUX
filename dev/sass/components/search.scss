@@ -3,6 +3,16 @@
 .search{
 	.search__filters{
 		display: flex;
+		justify-content: center;
+		.select2-container{
+			margin-right: 7px;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+		@media( max-width: 768px) {
+			justify-content: left;
+		}
 	}
 	.search__data{
 		display: flex;

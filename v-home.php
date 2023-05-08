@@ -67,7 +67,7 @@
             <div class="row">
                 <div class="col-md-12 u-mb40">
                     <div class="search">
-                        <div class="search__filters u-mb30">
+                        <div class="search__filters u-mb40">
                             <select name="programs" id="">
                                 <option value="">Tipo de programa</option>
                                 <option value="">Bootcamp</option>
