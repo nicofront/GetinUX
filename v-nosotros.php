@@ -71,7 +71,7 @@
                         Si tienes interés en el mundo del diseño de experiencias digitales, la educación es un paso fundamental para adquirir conocimientos y desarrollar técnicas que te permitan moverte con éxito en este rubro.
                     </p>
                     <p class="text text-sm u-mb20">
-                        <a href="#">Get in UX</a> nació con la finalidad de facilitar el descubrimiento de programas educativos en el ámbito de la Experiencia del Usuario y relacionados, específicamente en Chile. 
+                        <a href="v-home.php">Get in UX</a> nació con la finalidad de facilitar el descubrimiento de programas educativos en el ámbito de la Experiencia del Usuario y relacionados, específicamente en Chile. 
                     </p>
                     <p class="text text-sm u-mb20">
                         Encontrarás desde cursos introductorios hasta programas de especialización que te permitirán mejorar tus habilidades y alcanzar tus metas profesionales.
