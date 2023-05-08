@@ -18,6 +18,7 @@
                     overflow: auto;
                 }
                 .select2-selection__arrow{
+                    top: 50%;
                     transform: translate(0, -50%);
                     b{
                         border-color: #7232F2 transparent transparent transparent;
@@ -43,6 +44,7 @@
         box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4), -1px 0px 4px rgba(0, 0, 0, 0.25);
         border-radius: 8px;
         z-index: 40;
+        overflow: hidden;
         .select2-search--dropdown{
             display: none;
         }

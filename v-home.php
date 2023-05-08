@@ -87,12 +87,15 @@
                             </select>
                         </div>
                         <div class="search__data u-mb10">
-                            <h5 class="text text-sm text--black">
+                            <h5 class="text text-sm text--black u-mb0">
                                 10 resultados
                             </h5>
-                            <h6 class="text text-sm text--black">
-                                Ordenar por:
-                            </h6>
+                            <select name="sort" id="">
+                                <option value="">Ordenar por:</option>
+                                <option value="">Último añadido</option>
+                                <option value="">Precio menor a mayor</option>
+                                <option value="">Precio mayor a menor</option>
+                            </select>
                         </div>
                         <div class="search__box">
                             <div class="search__card">
