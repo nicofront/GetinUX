@@ -59,6 +59,13 @@
                     background-color: $lightpurple;
                     color: $white;
                 }
+                &.select2-results__option--highlighted{
+                    background-color: inherit;
+                    &:hover{
+                        background-color: $lightpurple;
+                        color: $white;
+                    }
+                }
             }
         }
     }
