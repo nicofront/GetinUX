@@ -18,19 +18,19 @@
 
 <body>
 
-    <div class="sidebar sidebar--active">
+    <div class="sidebar">
         <div class="sidebar__layer"></div>
         <div class="sidebar__box">
             <a href="" class="sidebar__close sidebar__trigger"></a>
             <ul>
                 <li>
-                    <a href="">Inicio</a>
+                    <a href="v-home.php">Inicio</a>
                 </li>
                 <li>
-                    <a href="">Sobre el sitio</a>
+                    <a href="v-nosotros.php">Sobre el sitio</a>
                 </li>
                 <li>
-                    <a href="">Incluye tu programa</a>
+                    <a href="v-contacto.php">Incluye tu programa</a>
                 </li>
             </ul>
         </div>
@@ -40,26 +40,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-2">
-                    <a href="v-home.php" class="header__logo">
-                        <img src="dist/img/header-logo.png" alt="Hivetire">
+                    <a href="" class="header__logo sidebar__trigger">
                     </a>
-                    <a href="#" class="header__switch d-block d-lg-none"></a>
-                </div>
-                <div class="col-lg-7">
-                    <div class="header__menu">
-                        <div class="header__tr">
-                            <div class="header__td">
-                                <a href="v-nosotros.php" class="text text-sm">
-                                    Nosotros
-                                </a>
-                            </div>
-                            <div class="header__td">
-                                <a href="v-contacto.php" class="text text-sm">
-                                    Contacto
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
