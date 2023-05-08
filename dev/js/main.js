@@ -31,6 +31,11 @@ $(document).ready(function() {
       }
     });
 
+    $('.sidebar__trigger, .sidebar__layer').click(function(event){
+        event.preventDefault();
+        $('.sidebar').stop().toggleClass('sidebar--active');
+    });
+
     $('.accordion__trigger').click(function(event){
         var self = $(this);
         event.preventDefault();

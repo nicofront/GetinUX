@@ -17,6 +17,25 @@
 </head>
 
 <body>
+
+    <div class="sidebar sidebar--active">
+        <div class="sidebar__layer"></div>
+        <div class="sidebar__box">
+            <a href="" class="sidebar__close sidebar__trigger"></a>
+            <ul>
+                <li>
+                    <a href="">Inicio</a>
+                </li>
+                <li>
+                    <a href="">Sobre el sitio</a>
+                </li>
+                <li>
+                    <a href="">Incluye tu programa</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
     <div class="header">
         <div class="container">
             <div class="row">
