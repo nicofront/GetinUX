@@ -31,6 +31,8 @@ $(document).ready(function() {
       }
     });
 
+    $('select').select2();
+
     $('.sidebar__trigger, .sidebar__layer').click(function(event){
         event.preventDefault();
         $('.sidebar').stop().toggleClass('sidebar--active');

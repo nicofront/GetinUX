@@ -1,5 +1,68 @@
 @import "../settings/colors";
 
+.select2-container{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    &.select2{
+        .selection{
+            .select2-selection--single{
+                border: 1px solid #7232F2;
+                border-radius: 8px;
+                height: auto;
+                .select2-selection__rendered{
+                    font-size: 14px;
+                    line-height: 20px;
+                    padding: 6px 8px;
+                    padding-right: 34px;
+                    color: #38393C;
+                    overflow: auto;
+                }
+                .select2-selection__arrow{
+                    transform: translate(0, -50%);
+                    b{
+                        border-color: #7232F2 transparent transparent transparent;
+                    }
+                }
+            }
+        }
+        &.select2-container--open{
+            .selection{
+                .select2-selection--single{
+                     .select2-selection__arrow{
+                        b{
+                            border-color: transparent transparent #7232F2 transparent;
+                        }
+                     }
+                }
+            }
+        }
+    }
+    .select2-dropdown{
+        margin-top: 5px;
+        border: 1px solid #7232F2;
+        box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4), -1px 0px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        z-index: 40;
+        .select2-search--dropdown{
+            display: none;
+        }
+        .select2-results__options{
+            max-height: 260px;
+            .select2-results__option{
+                font-size: 14px;
+                line-height: 20px;
+                color: #000000;
+                padding: 12px 13px;
+                transition: .5s;
+                &:hover{
+                    background-color: #7232F2;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
 .form {
     position: relative;
     @media( max-width: 767px) {

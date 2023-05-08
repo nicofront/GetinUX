@@ -13,6 +13,7 @@
     <meta property="og:site_name" content="Get in UX"/>
     <title>Get in UX</title>
     <link rel="shortcut icon" href="dist/img/favicon.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="dist/css/style.css?cb=1615307255841">
 </head>
 
@@ -66,6 +67,25 @@
             <div class="row">
                 <div class="col-md-12 u-mb40">
                     <div class="search">
+                        <div class="search__filters u-mb30">
+                            <select name="programs" id="">
+                                <option value="">Tipo de programa</option>
+                                <option value="">Bootcamp</option>
+                                <option value="">Curso</option>
+                                <option value="">Diplomado</option>
+                                <option value="">Magister</option>
+                                <option value="">Pregrado</option>
+                                <option value="">Taller</option>
+                            </select>
+                            <select name="status" id="">
+                                <option value="">Estatus</option>
+                                <option value="">Lorem</option>
+                            </select>
+                            <select name="price" id="">
+                                <option value="">Financiamiento</option>
+                                <option value="">Lorem</option>
+                            </select>
+                        </div>
                         <div class="search__data u-mb10">
                             <h5 class="text text-sm text--black">
                                 10 resultados

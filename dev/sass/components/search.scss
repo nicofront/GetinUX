@@ -1,6 +1,9 @@
 @import "../settings/colors";
 
 .search{
+	.search__filters{
+		display: flex;
+	}
 	.search__data{
 		display: flex;
 		flex-wrap: wrap;
