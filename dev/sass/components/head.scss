@@ -9,50 +9,23 @@
 	padding: 25px 0;
 	width: 100%;
 	background-color: $lightgrey;
-	.header__logo{
-		display: inline-block;
-		width: 20px;
-		height: 20px;
-		background-color: green;
-	}
 	.header__switch{
 		display: inline-block;
-		position: absolute;
-		top: 8px;
-		right: 15px;
-		width: 28px;
-		height: 28px;
-		background-repeat: no-repeat;
-		background-size: 28px 28px;
-		background-position: center;
+		width: 22px;
+		height: 22px;
+		background-color: green;
+	}
+	.header__contrast{
+		display: inline-block;
+		width: 22px;
+		height: 22px;
+		background-color: blue;
+	}
+	.header__switch0{
 		background-image: url('../img/icon-menu.png');
 	}
 	.header__menu{
-		display: table;
-		width: 100%;
-		font-size: 0;
-		@media( max-width: 991px) {
-			display: none;
-		}
-		.header__tr{
-			display: table-row;
-			@media( max-width: 991px) {
-				display: block;
-			}
-			.header__td{
-				display: table-cell;
-				width: 20%;
-				@media( max-width: 991px) {
-					display: block;
-					width: 100%;
-					text-align: left;
-				}
-				a{
-					display: inline-block;
-					color: $black;
-					padding: 4px 0;
-				}
-			}
-		}
+		display: flex;
+		justify-content: space-between;
 	}
 }

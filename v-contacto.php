@@ -39,9 +39,11 @@
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2">
-                    <a href="" class="header__logo sidebar__trigger">
-                    </a>
+                <div class="col-lg-12">
+                    <div class="header__menu">
+                        <a href="#" class="header__switch sidebar__trigger"></a>
+                        <a href="#" class="header__contrast"></a>
+                    </div>
                 </div>
             </div>
         </div>
