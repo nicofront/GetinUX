@@ -69,24 +69,26 @@
             <div class="row">
                 <div class="col-md-12 u-mb40">
                     <div class="search">
-                        <div class="search__filters u-mb40">
-                            <select name="programs" id="">
-                                <option value="">Tipo de programa</option>
-                                <option value="">Bootcamp</option>
-                                <option value="">Curso</option>
-                                <option value="">Diplomado</option>
-                                <option value="">Magister</option>
-                                <option value="">Pregrado</option>
-                                <option value="">Taller</option>
-                            </select>
-                            <select name="status" id="">
-                                <option value="">Estatus</option>
-                                <option value="">Lorem</option>
-                            </select>
-                            <select name="price" id="">
-                                <option value="">Financiamiento</option>
-                                <option value="">Lorem</option>
-                            </select>
+                        <div class="search__scroll u-mb40">
+                            <div class="search__filters">
+                                <select name="programs" id="">
+                                    <option value="">Tipo de programa</option>
+                                    <option value="">Bootcamp</option>
+                                    <option value="">Curso</option>
+                                    <option value="">Diplomado</option>
+                                    <option value="">Magister</option>
+                                    <option value="">Pregrado</option>
+                                    <option value="">Taller</option>
+                                </select>
+                                <select name="status" id="">
+                                    <option value="">Estatus</option>
+                                    <option value="">Lorem</option>
+                                </select>
+                                <select name="price" id="">
+                                    <option value="">Financiamiento</option>
+                                    <option value="">Lorem</option>
+                                </select>
+                            </div>
                         </div>
                         <div class="search__data u-mb10">
                             <h5 class="text text-sm text--black u-mb0">
