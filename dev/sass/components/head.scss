@@ -9,20 +9,18 @@
 	width: 100%;
 	background-color: $white;
 	// background-color: $lightgrey;
-	.header__switch{
+	.header__switch, .header__contrast{
+		background-repeat: no-repeat;
+		background-position: center;
 		display: inline-block;
 		width: 22px;
 		height: 22px;
-		background-color: green;
+	}
+	.header__switch{
+		background-image: url('../img/icon-menu.svg');
 	}
 	.header__contrast{
-		display: inline-block;
-		width: 22px;
-		height: 22px;
-		background-color: blue;
-	}
-	.header__switch0{
-		background-image: url('../img/icon-menu.png');
+		background-image: url('../img/icon-contrast.svg');
 	}
 	.header__menu{
 		display: flex;

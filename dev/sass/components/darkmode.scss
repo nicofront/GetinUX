@@ -5,6 +5,14 @@
 	.header, .footer{
 		background-color: $grey;
 	}
+	.header{
+		.header__switch{
+			background-image: url('../img/icon-menudark.svg');
+		}
+		.header__contrast{
+			background-image: url('../img/icon-contrastdark.svg');
+		}
+	}
 	.text{
 		color: $white;
 		&.text-darkblue{
