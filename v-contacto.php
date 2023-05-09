@@ -91,13 +91,13 @@
     <footer class="footer transition">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-6">
                     <a href="#" class="footer__title text-xl text u-mb0 text--medium">
                         Get in <br>
                         UX
                     </a>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-6">
                     <ul>
                         <li>
                             <a href="" class="text text-sm">
