@@ -30,12 +30,53 @@
 			.search__card__tags{
 				ul{
 					li{
+						background-color: $pink;
+						color: $black;
 						&.search__card__tags__type{
 							background-color: $lightpink;
+							color: $white;
 						}
 					}
 				}
 			}
 		}
+		.search__data{
+			.select2-container{
+				&.select2{
+					.selection{
+						 .select2-selection--single{
+						 	 .select2-selection__rendered{
+						 	 	color: $white;
+						 	 }
+						 }
+					}
+				}
+			}
+		}
+	}
+	.select2-container--default{
+		.select2-selection--single{
+			background-color: $pink;
+		}
+	}
+	.select2-container{
+	    .select2-dropdown{
+	    	background-color: $washedgrey;
+	        .select2-results__options{
+	            .select2-results__option{
+	                color: $white;
+	                &:hover{
+	                    background-color: $lightpink;
+	                }
+	                &.select2-results__option--highlighted{
+	                	background-color: $washedgrey;
+	                	color: $white;
+	                    &:hover{
+	                        background-color: $lightpink;
+	                    }
+	                }
+	            }
+	        }
+	    }
 	}
 }

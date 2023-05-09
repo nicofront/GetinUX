@@ -62,8 +62,13 @@
                     background-color: $lightpurple;
                     color: $white;
                 }
+                &.select2-results__option--selected{
+                    background-color: $grey;
+                    color: $white;
+                }
                 &.select2-results__option--highlighted{
-                    background-color: inherit;
+                    background-color: $white;
+                    color: $black;
                     &:hover{
                         background-color: $lightpurple;
                         color: $white;
