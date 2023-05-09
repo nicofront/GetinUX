@@ -36,7 +36,7 @@
         </div>
     </div>
     
-    <div class="header">
+    <div class="header transition">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

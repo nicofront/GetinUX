@@ -2,6 +2,9 @@
 
 .darkmode{
 	background-color: $grey;
+	.header, .footer{
+		background-color: $grey;
+	}
 	.text{
 		color: $white;
 		&.text-darkblue{
@@ -13,9 +16,6 @@
 		a{
 			color: $lightpink;
 		}
-	}
-	.footer{
-		background-color: $grey;
 	}
 	.sidebar{
 		.sidebar__box{
