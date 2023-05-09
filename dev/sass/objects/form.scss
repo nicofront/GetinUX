@@ -2,6 +2,7 @@
 
 .select2-container{
     margin-right: 5px;
+    min-width: 92px;
     &.select2{
         .selection{
             .select2-selection--single{
@@ -12,7 +13,7 @@
                     font-size: 14px;
                     line-height: 20px;
                     padding: 6px 8px;
-                    padding-right: 34px;
+                    padding-right: 35px;
                     color: $grey;
                     overflow: auto;
                 }
@@ -56,15 +57,31 @@
                 font-size: 14px;
                 line-height: 20px;
                 color: $black;
-                padding: 12px 13px;
+                padding: 12px 10px;
+                padding-right: 20px;
                 transition: .5s;
                 &:hover{
                     background-color: $lightpurple;
                     color: $white;
                 }
                 &.select2-results__option--selected{
-                    background-color: $grey;
-                    color: $white;
+                    background-color: $white;
+                    color: $black;
+                    position: relative;
+                    &:after{
+                        content: '';
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 12px;
+                        width: 12px;
+                        height: 9px;
+                        background-image: url('../img/icon-check.svg');
+                        display: inline-block;
+                        position: absolute;
+                        right: 8px;
+                        top: 50%;
+                        transform: translate(0, -50%);
+                    }
                 }
                 &.select2-results__option--highlighted{
                     background-color: $white;

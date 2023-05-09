@@ -76,6 +76,13 @@
 	                &:hover{
 	                    background-color: $lightpink;
 	                }
+	                &.select2-results__option--selected{
+	                	background-color: $washedgrey;
+	                	color: $white;
+	                	&:after{
+	                		
+	                	}
+	                }
 	                &.select2-results__option--highlighted{
 	                	background-color: $washedgrey;
 	                	color: $white;
