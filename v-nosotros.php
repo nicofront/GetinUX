@@ -77,7 +77,7 @@
                         Encontrarás desde cursos introductorios hasta programas de especialización que te permitirán mejorar tus habilidades y alcanzar tus metas profesionales.
                     </p>
                     <p class="text text-sm u-mb30">
-                        Fue creado por Tamara Reyes Ponce de León, UX Researcher y Sebastián Hermosilla Valenzuela, Ingeniero en Informática.
+                        Fue creado por Tamara Reyes Ponce de León, UX Researcher, Sebastián Hermosilla Valenzuela, Ingeniero en Informática y Nicolás Pérez, Desarrollador Frontend.
                     </p>
                     <p class="text text--medium text-base u-center text-darkblue">
                         ¡Nunca dejes de aprender!
