@@ -1,13 +1,7 @@
-# Configuracion correos
+# Configuracion GetInUX
 
-El sitio de Hivetire manda correos usando PHP y gmail de base. Esta última autentifica el envío y facilita la respuesta de los mismos.
-
-Por lo tal, es necesario agregar una cuenta gmail y sus credenciales en los archivos:
-
-- mailer-contacto.php
-- mailer-demo.php
-
-Actualizando las variables $correobase y $password con el usuario y contraseña de gmail respectivamente.
+- NPM Install
+- Gulp
 
 
 =======================================================================
