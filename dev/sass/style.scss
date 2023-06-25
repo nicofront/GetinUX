@@ -1,6 +1,7 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "settings/fonts";
 @import "settings/utility";
+@import "settings/darkmode";
 
 //scripts
 @import "scripts/slick";
@@ -13,7 +14,6 @@
 @import "components/formulario";
 @import "components/bgblock";
 @import "components/search";
-@import "components/darkmode";
 
 //objetos
 @import "objects/form";

@@ -33,7 +33,6 @@
                 .select2-selection--single{
                      .select2-selection__arrow{
                         b{
-                            border-color: $lightpurple transparent transparent transparent;
                             border-width: 5px 4px 0 4px;
                             transform: rotate(-180deg);
                         }
@@ -100,6 +99,17 @@
              .select2-selection--single{
                 background-color: $mainpurple;
              }
+        }
+        &.select2{
+            .selection{
+                .select2-selection--single{
+                    .select2-selection__arrow{
+                        b{
+                            border-color: $darkblue-90 transparent transparent transparent;
+                        }
+                    }
+                }
+            }
         }
     }
 }
