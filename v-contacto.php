@@ -72,7 +72,7 @@
                         ¿Quieres que tu programa de enseñanza en UX sea visto por miles de potenciales estudiantes? Pues has llegado a la sección correcta.
                     </p>
                     <p class="text text-sm u-mb20">
-                        Para ser parte de nuestro sitio web tienes que rellenar el siguiente <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">formulario de inscripción</a>. 
+                        Para ser parte de nuestro sitio web tienes que rellenar el siguiente <a href="https://forms.gle/9pMCuhv3LMDPyKPj8" target="_blank">formulario de inscripción</a>. 
                     </p>
                     <p class="text text-sm u-mb20">
                         Los programas que buscamos tienen que ver con áreas relacionadas a la UX, tales como UX, UI, CX, Product Design, Content Design, UX Research, Diseño Web, entre otras.
