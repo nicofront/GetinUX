@@ -1,5 +1,5 @@
 var gulp = require('gulp'), watch = require('gulp-watch');
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('sass'));
 var browserSync = require('browser-sync');
 var useref = require('gulp-useref');
 var gulpIf = require('gulp-if');
@@ -16,6 +16,8 @@ var clean = require('gulp-clean');
 const minify = require('gulp-minify');
 var php = require('gulp-connect-php');
 var reload      = browserSync.reload;
+
+sass.compiler = require('node-sass');
 
 // Development Tasks
 // -----------------
