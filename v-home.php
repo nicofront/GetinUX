@@ -64,7 +64,7 @@
         </div>
     </div>
 
-    <div class="u-pb30">
+    <div class="u-pb0">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 u-mb40">
@@ -314,6 +314,36 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="u-pb60">
+        <div class="paginator transition">
+            <ul>
+                <li class="">
+                    <a href="" class="arrow arrow-prev">
+                    </a>
+                </li>
+                <li class="">
+                    <a href="">1</a>
+                </li>
+                <li class="active">
+                    <a href="">2</a>
+                </li>
+                <li>
+                    <p>...</p>
+                </li>
+                <li class="">
+                    <a href="">6</a>
+                </li>
+                <li class="">
+                    <a href="">7</a>
+                </li>
+                <li class="">
+                    <a href="" class="arrow arrow-next">
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 

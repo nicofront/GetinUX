@@ -25,6 +25,15 @@
 			color: $lightpink;
 		}
 	}
+	.paginator{
+		ul{
+			li{
+				a, p{
+					color: $white;
+				}
+			}
+		}
+	}
 	.sidebar{
 		.sidebar__box{
 			background-color: $lightpink;
