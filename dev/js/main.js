@@ -19,10 +19,15 @@ $(document).ready(function() {
         self.next().stop().slideToggle();
     });
 
-    if($('.slider__articles').length > 0){
-        $('.slider__articles').slick({
-            infinite: false
-        });
-    }
+    $('.search__filters select').change(function(){
+        var self = $(this);
+        var name = self.attr('name');
+        var selected = self.children("option:selected").val();
+        if(selected){
+            $("select[name=" + name + "]").next().addClass('active');
+        }else{
+            $("select[name=" + name + "]").next().removeClass('active');
+        }
+    });
 
 }); //end ready

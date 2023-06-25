@@ -73,20 +73,20 @@
                             <div class="search__filters">
                                 <select name="programs" id="">
                                     <option value="">Tipo de programa</option>
-                                    <option value="">Bootcamp</option>
-                                    <option value="">Curso</option>
-                                    <option value="">Diplomado</option>
-                                    <option value="">Magister</option>
-                                    <option value="">Pregrado</option>
-                                    <option value="">Taller</option>
+                                    <option value="bootcamp">Bootcamp</option>
+                                    <option value="curso">Curso</option>
+                                    <option value="diplomado">Diplomado</option>
+                                    <option value="magister">Magister</option>
+                                    <option value="pregrado">Pregrado</option>
+                                    <option value="taller">Taller</option>
                                 </select>
                                 <select name="status" id="">
                                     <option value="">Estatus</option>
-                                    <option value="">Lorem</option>
+                                    <option value="lorem">Lorem</option>
                                 </select>
                                 <select name="price" id="">
                                     <option value="">Financiamiento</option>
-                                    <option value="">Lorem</option>
+                                    <option value="lorem">Lorem</option>
                                 </select>
                             </div>
                         </div>

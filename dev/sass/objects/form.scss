@@ -9,6 +9,7 @@
                 border: 1px solid $lightpurple;
                 border-radius: 8px;
                 height: auto;
+                transition: .5s;
                 .select2-selection__rendered{
                     font-size: 14px;
                     line-height: 20px;
@@ -92,6 +93,13 @@
                     }
                 }
             }
+        }
+    }
+    &.active{
+        &.select2-container--default{
+             .select2-selection--single{
+                background-color: $mainpurple;
+             }
         }
     }
 }
