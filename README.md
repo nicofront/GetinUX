@@ -1,6 +1,6 @@
 # Configuracion GetInUX
 
-- NPM Install
+- NPM Install (Node 19)
 - Gulp
 
 
