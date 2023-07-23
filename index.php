@@ -17,6 +17,11 @@
 				</a>
 			</li>
 			<li>
+				<a href="v-home-empty.php">
+					Sin resultados
+				</a>
+			</li>
+			<li>
 				<a href="v-nosotros.php">
 					Nosotros
 				</a>
