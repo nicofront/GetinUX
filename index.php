@@ -26,6 +26,11 @@
 					Contacto
 				</a>
 			</li>
+			<li>
+				<a href="v-404.php">
+					404
+				</a>
+			</li>
 		</ul>
 	</body>
 
