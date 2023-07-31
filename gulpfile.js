@@ -26,7 +26,7 @@ sass.compiler = require('node-sass');
 
 gulp.task('browserSync',['php'], function() {
     browserSync.init({
-        proxy:"localhost:5000", // You may need to change your port number, currently set to 5000 if already in use
+        proxy:"localhost:3000", // You may need to change your port number, currently set to 3000 if already in use
         baseDir: "./",
         open:true,
         notify:false
@@ -37,7 +37,7 @@ gulp.task('browserSync',['php'], function() {
 gulp.task('php', function(){
     php.server({
         base:'./',
-        port:5000, // Port number is also set here
+        port:3000, // Port number is also set here
         keepalive:true
     });
 });
