@@ -54,6 +54,9 @@
 	.search{
 		.search__card{
 			border-color: $pink;
+			.search__card__newtab{
+				background-image: url('../img/icon-launchdark.svg');
+			}
 			.search__card__who{
 				color: $white;
 			}

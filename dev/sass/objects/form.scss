@@ -2,7 +2,7 @@
 
 .select2-container{
     margin-right: 5px;
-    min-width: 92px;
+    min-width: 150px;
     &.select2{
         .selection{
             .select2-selection--single{
@@ -14,7 +14,7 @@
                     font-size: 14px;
                     line-height: 20px;
                     padding: 6px 8px;
-                    padding-right: 35px;
+                    padding-right: 25px;
                     color: $grey;
                     overflow: auto;
                 }

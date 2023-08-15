@@ -73,11 +73,25 @@
 		border: 1px solid #212226;
 		border-radius: 13px;
 		padding: 25px 23px 28px;
+		position: relative;
+		.search__card__newtab{
+			display: inline-block;
+			position: absolute;
+			top: 25px;
+			right: 23px;
+			width: 24px;
+			height: 24px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-image: url('../img/icon-launch.svg');
+		}
 		.search__card__tags{
-			padding-right: 30px;
+			padding-right: 28px;
 			ul{
 				padding: 0;
 				margin: 0;
+				font-size: 0;
 				li{
 					display: inline-block;
 					list-style: none;

@@ -103,6 +103,7 @@
                         </div>
                         <div class="search__box">
                             <div class="search__card">
+                                <a href="https://twitter.com/" target="_blank" class="search__card__newtab"></a>
                                 <div class="search__card__tags u-mb30">
                                     <ul>
                                         <li class="text text-xs search__card__tags__type">
