@@ -49,6 +49,8 @@
         </div>
     </div>
 
+    <div id="scroll" class="top transition"></div>
+
     <div class="bgblock">
         <div class="container">
             <div class="row">

@@ -39,6 +39,19 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 }
 
+.top{
+    cursor: pointer;
+    display: none;
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
 .g-recaptcha {
     display: inline-block;
     margin-bottom: 40px;
